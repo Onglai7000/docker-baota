@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo 'starting bt....'
-service bt start
+/bin/systemctl restart cwpsrv
 
 /bin/bash
